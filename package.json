@@ -1,0 +1,17 @@
+{
+  "name": "babel-7-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:banyawat/babel-7-sandbox.git",
+  "author": "Banyawat Kaewsamer <bunyawat.38@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "babel-node ./example/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.52",
+    "@babel/core": "^7.0.0-beta.52",
+    "@babel/node": "^7.0.0-beta.52",
+    "@babel/preset-env": "^7.0.0-beta.52"
+  }
+}
