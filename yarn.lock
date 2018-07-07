@@ -232,6 +232,24 @@
     "@babel/helper-remap-async-to-generator" "7.0.0-beta.52"
     "@babel/plugin-syntax-async-generators" "7.0.0-beta.52"
 
+"@babel/plugin-proposal-class-properties@7.0.0-beta.52":
+  version "7.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.0.0-beta.52.tgz#8cfca275fb4b6a462db9202970458cb3874fca7b"
+  dependencies:
+    "@babel/helper-function-name" "7.0.0-beta.52"
+    "@babel/helper-member-expression-to-functions" "7.0.0-beta.52"
+    "@babel/helper-optimise-call-expression" "7.0.0-beta.52"
+    "@babel/helper-plugin-utils" "7.0.0-beta.52"
+    "@babel/helper-replace-supers" "7.0.0-beta.52"
+    "@babel/plugin-syntax-class-properties" "7.0.0-beta.52"
+
+"@babel/plugin-proposal-json-strings@7.0.0-beta.52":
+  version "7.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.0.0-beta.52.tgz#64e6a2d45925f3447747028b7e103420964245d5"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-beta.52"
+    "@babel/plugin-syntax-json-strings" "7.0.0-beta.52"
+
 "@babel/plugin-proposal-object-rest-spread@7.0.0-beta.52":
   version "7.0.0-beta.52"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.0.0-beta.52.tgz#d114cdbdb65c8ab026f840339f0484069c69c75e"
@@ -257,6 +275,30 @@
 "@babel/plugin-syntax-async-generators@7.0.0-beta.52":
   version "7.0.0-beta.52"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-async-generators/-/plugin-syntax-async-generators-7.0.0-beta.52.tgz#52d99f0e38cadec8240582f3fb792c8190db24c6"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-beta.52"
+
+"@babel/plugin-syntax-class-properties@7.0.0-beta.52":
+  version "7.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-class-properties/-/plugin-syntax-class-properties-7.0.0-beta.52.tgz#db43035fc9785f310d53202bc1fce2f375cca220"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-beta.52"
+
+"@babel/plugin-syntax-dynamic-import@7.0.0-beta.52":
+  version "7.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.0.0-beta.52.tgz#a2d9c7de13df9f8c259b5ecbd1582aae01ce2077"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-beta.52"
+
+"@babel/plugin-syntax-import-meta@7.0.0-beta.52":
+  version "7.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-import-meta/-/plugin-syntax-import-meta-7.0.0-beta.52.tgz#b7f9e8929b7b112333f60428c6fb958f6487ff47"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-beta.52"
+
+"@babel/plugin-syntax-json-strings@7.0.0-beta.52":
+  version "7.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-json-strings/-/plugin-syntax-json-strings-7.0.0-beta.52.tgz#b2215255a919c628cdb9f0ed4eae8d8e69c759f4"
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.52"
 
@@ -511,6 +553,20 @@
     invariant "^2.2.2"
     js-levenshtein "^1.1.3"
     semver "^5.3.0"
+
+"@babel/preset-stage-3@^7.0.0-beta.52":
+  version "7.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@babel/preset-stage-3/-/preset-stage-3-7.0.0-beta.52.tgz#d477a5be2c08f09577e0864a13897e33923a8143"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-beta.52"
+    "@babel/plugin-proposal-async-generator-functions" "7.0.0-beta.52"
+    "@babel/plugin-proposal-class-properties" "7.0.0-beta.52"
+    "@babel/plugin-proposal-json-strings" "7.0.0-beta.52"
+    "@babel/plugin-proposal-object-rest-spread" "7.0.0-beta.52"
+    "@babel/plugin-proposal-optional-catch-binding" "7.0.0-beta.52"
+    "@babel/plugin-proposal-unicode-property-regex" "7.0.0-beta.52"
+    "@babel/plugin-syntax-dynamic-import" "7.0.0-beta.52"
+    "@babel/plugin-syntax-import-meta" "7.0.0-beta.52"
 
 "@babel/register@7.0.0-beta.52":
   version "7.0.0-beta.52"
