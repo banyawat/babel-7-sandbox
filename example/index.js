@@ -1,3 +1,5 @@
+//PART OF PRESET STAGE 3 + babel package 'dynamic-import-node'
+
 import classProperty from './classProperty'
 import objectRestSpread from './objectRestSpread'
 import optionalTryCatch from './optionalTryCatch'
