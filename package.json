@@ -13,6 +13,7 @@
     "@babel/core": "^7.0.0-beta.52",
     "@babel/node": "^7.0.0-beta.52",
     "@babel/preset-env": "^7.0.0-beta.52",
+    "@babel/preset-stage-2": "^7.0.0-beta.52",
     "@babel/preset-stage-3": "^7.0.0-beta.52",
     "babel-plugin-dynamic-import-node": "^2.0.0"
   }
